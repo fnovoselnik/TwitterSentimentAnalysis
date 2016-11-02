@@ -19,8 +19,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import SVC 
 
 
-corpusFile="C:\Users\Filip\Dropbox\Faks\TwitterAPI\sanders-twitter-0.2\corpus.csv"
-tweetDataFile="C:\\Users\\Filip\\Dropbox\\Faks\\TwitterAPI\\sanders-twitter-0.2\\tweetDataFile.csv"
+corpusFile="C:\Users\..\corpus.csv"
+tweetDataFile="C:\Users\..\tweetDataFile.csv"
 
 api = twitter.Api(consumer_key='Enter your key',
                  consumer_secret='Enter your key',
